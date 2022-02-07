@@ -6,7 +6,7 @@ function print_person1(name, age, region){
 
 print_person1('tom',10,'Seoul');
 
-function print_person2({name,age,retion}){
+function print_person2({name, age, region}){
     console.log(name, age, region);
 }
 
