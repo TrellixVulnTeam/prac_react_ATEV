@@ -1,10 +1,13 @@
+import React from 'react';
+import Counter from './Counter';
 import './App.css';
+import { Button } from 'antd';
 
 function App() {
   return (
-    <div>
-
-    </div>
+     <div>
+       <Counter></Counter>
+     </div>
   );
 }
 
