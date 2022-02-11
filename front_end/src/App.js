@@ -4,13 +4,12 @@ import './App.css';
 import { Button } from 'antd';
 import Message from "./Message";
 import Profile from "./Profile";
+import TodoList from "./TodoList";
 
 function App() {
   return (
      <div>
-       <Message></Message>
-       <Profile></Profile>
-       <Counter></Counter>
+       <TodoList></TodoList>
      </div>
   );
 }
