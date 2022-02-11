@@ -1,3 +1,4 @@
+import produce from 'immer';
 import React, { Component } from 'react';
 
 const TodoItem = ({todo, index}) => <li>{index} {todo}</li>
@@ -17,11 +18,16 @@ class TodoList extends Component {
     };
     onKeyDown = (e) => {
         if (e.keyCode === 13){
-            const {todoList, current} = this.state;
-            this.setState={
-                current:'',
-                todoList : [...todoList, current],
-            }
+            // const {todoList, current} = this.state;
+            // this.setState={
+            //     current:'',
+            //     todoList : [...todoList, current],
+            // }
+            this.setState(produce(draft => {
+                const current = draft.current.trim()
+                draft.current = '';
+                draft.todoList.push(current);
+            }))
         }
     }
 
