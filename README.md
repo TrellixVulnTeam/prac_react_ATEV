@@ -8,17 +8,17 @@
 - react-router-dom
 
 ## ES6+ 문법 공부 내용  
-- [Hoisting](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/hoisting.js)
-- [Const](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/const.js)
-- [Object](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/object.js)
-- [Spread Operator](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/spreadOperator.js)
-- [Destructuring](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/namedParameters.js)
-- [Default Parameter](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/defaultParameters.js)
-- [Named Parameter](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/namedParameters.js)
-- [Class](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/class.js)
-- [Callback](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/callback.js)
-- [Arrow Function](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/arrowFunction.js)
-- [High Order Function](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/highOrderFunction.js)
+- [Hoisting](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/hoisting.js)  변수를 나중에 선언하더라도 맨처음 선언한 것처럼 구동되는 것
+- [Const](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/const.js)  변수 선언이 var에서 진화되어, const(상수), let(변수)로 사용됨.
+- [Object](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/object.js)  node에서는 객체의 표현법이 다양하다.
+- [Spread Operator](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/spreadOperator.js) 전개 연산자 python에 * 문법과 비슷하다
+- [Destructuring](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/namedParameters.js)  비구조화 할당 소스 참조
+- [Default Parameter](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/defaultParameters.js)  함수의 값이 지정하지 않으면 디폴트 값을 지정되는 것
+- [Named Parameter](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/namedParameters.js) 함수에 파라미터를 던질때 변수명과 동일하게 하여 값을 던지면 어떻게 작성해도 값이 똑같이 전달되는 것 
+- [Class](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/class.js)  다른 객체지향 언어에서 사용하는 class 및 상속
+- [Callback](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/callback.js)  비동기 내용 지원
+- [Arrow Function](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/arrowFunction.js)  함수를 지정하는 여러가지 방법
+- [High Order Function](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/highOrderFunction.js) 고차함수 함수안에 함수를 넣어 함수의 형태를 반환해주는 함수
 
 ## Babel
 - Babel은 ES6,7,8로 작성된 것을 ES5 같이 하위버전으로 변경해주는 것 
