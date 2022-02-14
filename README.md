@@ -38,7 +38,7 @@
 
 ## immer 사용하기
 - immer란? ES6+에서는 객체의 불변성을 지키는 것이 조금 까다로운데 이런 불변성 지키는 부분을 손쉽게 해주는 라이브러리 이다.
-- [immer 사용법 정리](https://github.com/hyunseokjoo/prac_react/blob/main/front_end/src/immer_test.js)
+- [immer 사용법 정리](https://github.com/hyunseokjoo/prac_react/blob/main/front_end/src/immer_test.js) 맨마지막 부분 produce, draft를 사용하는 방법도 익혀두자produce함수는 (객체, draft)를 파라미터로 받는데 객체의 내용을 draft안에 복사하고 그 draft를 조작하여 반환해주면 기존의 객체의 불변은 지키면서 변경된 값을 얻을 수 있다.
 
 ## Hooks
 - hook이란? react에서 spa를 구동하기 위해서는 갱신되었다는 정보를 담아야하는데 갱신된정보를 알려줄 수 있도록 하는 신호 알리미 개념이라고 보면 된다.
