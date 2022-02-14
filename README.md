@@ -1,4 +1,4 @@
-# React 공부 Repository
+# React  Repository
 
 ## Dependencies
 - node
