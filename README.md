@@ -32,6 +32,7 @@
 
 
 ## Sass/Scss
+- Sass란 css내용을 변수로 담아두고 그 변수를 활용하여 css를 고도화 할 수 있게 만들어주는 css상위 버전이라고 생각하면 된다.
 - [Sass 변수 작성법](https://github.com/hyunseokjoo/prac_react/blob/main/front_end/src/shared.scss)
 - [Sass 모듈화](https://github.com/hyunseokjoo/prac_react/blob/main/front_end/src/Profile.module.scss)
 - [모듈 import 및 사용](https://github.com/hyunseokjoo/prac_react/blob/main/front_end/src/Profile.js)
