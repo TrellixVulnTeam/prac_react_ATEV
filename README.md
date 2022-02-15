@@ -7,7 +7,7 @@
 - immer
 - react-router-dom
 
-## ES6+ 문법 공부 내용  
+## ES6+ 문법
 - [Hoisting](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/hoisting.js)  변수를 나중에 선언하더라도 맨처음 선언한 것처럼 구동되는 것
 - [Const](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/const.js)  변수 선언이 var에서 진화되어, const(상수), let(변수)로 사용됨.
 - [Object](https://github.com/hyunseokjoo/prac_react/blob/main/basic_ES6%2B/object.js)  node에서는 객체의 표현법이 다양하다.
