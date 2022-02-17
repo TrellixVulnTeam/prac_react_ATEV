@@ -53,7 +53,7 @@
 - React에서는 spa를 구현하기위해 사용하는 js이기 때문에 재로딩되는 <a>태그를 사용하지 않는다.
 - 기본 jquery나 다른 js에서는 prevent event등을 활용하여 재로딩을 막기도 한다.
 - 히스토리API 활용하기 위해 react-router-dom을 활용한다.
-- BrowserRouter, Link, NavLink, Route, Switch등을 사용하여 애플리케이션 동작 처리를 한다.
+- BrowserRouter, Link, NavLink, Route, ~~Switch~~(v6에서는 Routes로 변경되었다.)등을 사용하여 애플리케이션 동작 처리를 한다.
 - [기본사용법 정리](https://github.com/hyunseokjoo/prac_react/blob/main/front_end/src/useReducer.js)
 - BrowserRouter는 react-router-dom을 활용하기 위해 감싸는 태그 
 - Link는 a태그와 똑같은 행동을 하지만, 재로딩이 되지 않게 해준다.
