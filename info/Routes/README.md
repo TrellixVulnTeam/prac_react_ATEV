@@ -22,6 +22,7 @@
 //복수라우팅
 <Route path="/accounts/*" element={<Page1 />} />
 
+//
 //v5
 <Switch>
   <Route path="/accounts" />
