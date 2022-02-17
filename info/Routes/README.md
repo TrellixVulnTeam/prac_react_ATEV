@@ -64,8 +64,7 @@
 </Routes>
 ```
 - v6에서는 Switch가 Routes로 변경이 되었다.
-- Switch는 작성해도 되고 안해도 되었지만, v6는 꼭 Routes를 작성하여야한다.
-- Routes에서는 exact를 사용하지 않아도 되며      
+- Switch는 작성해도 되고 안해도 되었지만, v6는 꼭 Routes를 작성하여야한다.   
 
 ---
 
