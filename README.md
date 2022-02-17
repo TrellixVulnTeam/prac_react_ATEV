@@ -55,10 +55,10 @@
 - 히스토리API 활용하기 위해 react-router-dom을 활용한다.
 - BrowserRouter, Link, NavLink, Route, ~~Switch~~(v6에서는 Routes로 변경되었다.)등을 사용하여 애플리케이션 동작 처리를 한다.
 - [기본사용법 정리](https://github.com/hyunseokjoo/prac_react/blob/main/front_end/src/useReducer.js)
-- BrowserRouter는 react-router-dom을 활용하기 위해 감싸는 태그 
+- [BrowserRouter](https://github.com/hyunseokjoo/prac_react/tree/main/info/BrowserRouter)는 react-router-dom을 활용하기 위해 감싸는 태그 
 - Link는 a태그와 똑같은 행동을 하지만, 재로딩이 되지 않게 해준다.
-- Route는 path별로 component(화면의 일정부분)을 변경하여 spa를 구현하게 해준다.
+- [Route](https://github.com/hyunseokjoo/prac_react/blob/main/info/Routes/README.md)는 path별로 component(화면의 일정부분)을 변경하여 spa를 구현하게 해준다.
 - NavLink는 Link와 같은 역할을 하지만, activeStyle을 활용하여 click되어진 것의 style을 변경해준다.
-- Routes~~Switch~~는 url 매칭이 안되었을 때는 no match(404)에러 처럼 다른 화면을 보여주게 해주고, 순차적으로 위에서 아래로 훑으면서 path를 찾기 때문에 restful api 를 구현하기 쉽게 해준다.
+- [Routes](https://github.com/hyunseokjoo/prac_react/blob/main/info/Routes/README.md)(~~Switch~~)는 url 매칭이 안되었을 때는 no match(404)에러 처럼 다른 화면을 보여주게 해주고, 순차적으로 위에서 아래로 훑으면서 path를 찾기 때문에 restful api 를 구현하기 쉽게 해준다.
 - history, location, math등 속성을 이용하여 화면 api를 잘 구현 할 수 있게 해준다.
   
