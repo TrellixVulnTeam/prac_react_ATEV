@@ -11,6 +11,7 @@
     </Routes>
 </Layout>
 ```
+---
 ### Route를 사용하는 방법
 - 기본적으로 Route를 import하고 path에는 주소를 element는 컴포넌트를 구성하게 된다.
 - router-dom v5에서는 exact를 써주어 일치한 주소라는 것을 인식 시켜주었지만, v6에서는 사용하지 않아도 자동으로 적용되어있다.
@@ -64,8 +65,8 @@
 ```
 -v6에서는 Switch가 Routes로 변경이 되었다.
 -Switch는 작성해도 되고 안해도 되었지만, v6는 꼭 Routes를 작성하여야한다.
--Routes에서는 exact를 사용하지 않아도 되며
-
+-Routes에서는 exact를 사용하지 않아도 되며      
+---
 
 ### Outlet사용하기 
 ```js
