@@ -11,6 +11,7 @@
     </Routes>
 </Layout>
 ```
+---
 ### Route를 사용하는 방법
 - 기본적으로 Route를 import하고 path에는 주소를 element는 컴포넌트를 구성하게 된다.
 - router-dom v5에서는 exact를 써주어 일치한 주소라는 것을 인식 시켜주었지만, v6에서는 사용하지 않아도 자동으로 적용되어있다.
@@ -22,6 +23,7 @@
 //복수라우팅
 <Route path="/accounts/*" element={<Page1 />} />
 
+//
 //v5
 <Switch>
   <Route path="/accounts" />
@@ -43,13 +45,13 @@
 <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
-    <Route path="/accounts" element={<AccountsRoutes/>} />
+    <Route path="/accounts/*" element={<AccountsRoutes/>} />
 </Routes>
 
 // pages/accounts/index.js
 <Routes>
-    <Route path="/accounts/profile" element={<Profile/>} />
-    <Route path="/accounts/login" element={<Login/>} />
+    <Route path="profile" element={<Profile/>} />
+    <Route path="login" element={<Login/>} />
 </Routes>
 ```
 - 위와 같이 구성하게 되면 app단위로 컴포넌트들을 만들어 관리 하기 쉽게 된다.
@@ -61,10 +63,10 @@
     <Route path="/accounts" element={<AccountsRoutes/>} />
 </Routes>
 ```
--v6에서는 Switch가 Routes로 변경이 되었다.
--Switch는 작성해도 되고 안해도 되었지만, v6는 꼭 Routes를 작성하여야한다.
--Routes에서는 exact를 사용하지 않아도 되며
+- v6에서는 Switch가 Routes로 변경이 되었다.
+- Switch는 작성해도 되고 안해도 되었지만, v6는 꼭 Routes를 작성하여야한다.   
 
+---
 
 ### Outlet사용하기 
 ```js
@@ -75,7 +77,7 @@
 </Routes>
 ```
 - 중첩routing 사용 한 코드이다.
-- 여기서 /web/ 주소로 들어가게 되면
+- 여기서 /post/ 주소로 들어가게 되면
 - Outlet을 사용하여 children Route를 쉽게 구성할수 있다.
 - 아래 두 코드블럭은 같은 기능을 한다.
 ```js
