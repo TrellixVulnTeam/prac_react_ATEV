@@ -45,13 +45,13 @@
 <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
-    <Route path="/accounts" element={<AccountsRoutes/>} />
+    <Route path="/accounts/*" element={<AccountsRoutes/>} />
 </Routes>
 
 // pages/accounts/index.js
 <Routes>
-    <Route path="/accounts/profile" element={<Profile/>} />
-    <Route path="/accounts/login" element={<Login/>} />
+    <Route path="profile" element={<Profile/>} />
+    <Route path="login" element={<Login/>} />
 </Routes>
 ```
 - 위와 같이 구성하게 되면 app단위로 컴포넌트들을 만들어 관리 하기 쉽게 된다.
