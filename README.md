@@ -61,4 +61,8 @@
 - NavLink는 Link와 같은 역할을 하지만, activeStyle을 활용하여 click되어진 것의 style을 변경해준다.
 - [Routes](https://github.com/hyunseokjoo/prac_react/blob/main/info/Routes/README.md)(~~Switch~~)는 url 매칭이 안되었을 때는 no match(404)에러 처럼 다른 화면을 보여주게 해주고, 순차적으로 위에서 아래로 훑으면서 path를 찾기 때문에 restful api 를 구현하기 쉽게 해준다.
 - history, location, math등 속성을 이용하여 화면 api를 잘 구현 할 수 있게 해준다.
+     
+## Form
+- AJAX를 이용한 기본적인 [Form](https://github.com/hyunseokjoo/prac_react/tree/main/info/BasicForm) submit 처리
+
   
