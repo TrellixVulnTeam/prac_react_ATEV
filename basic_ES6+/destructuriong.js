@@ -62,7 +62,7 @@ for(const {name, age} of people){
 
 //비구조화 뎁스 
 const person = {
-    name : 'tom',
+    name1 : 'tom',
     age : 10,
     region : {
         country : '서울',
@@ -70,6 +70,22 @@ const person = {
     }
 };
 //region:이라는 경로를 지정하여 하위 내용을 깊게 끄내져 와 사용이 가능하다
-const { name, region: {postcode}}  = person;
+const { name1, region: {postcode}}  = person;
 
-console.log(name, postcode)
+console.log(name1, postcode)
+
+
+
+const payloadTest = { payload : "tokenTest"};
+
+const initialState = { jwtToken: "" };
+
+function stateTest () {
+    const {payload : jwtToken}= payloadTest;
+    console.log(jwtToken);
+    return {
+        ...initialState,
+        jwtToken
+    }
+}
+console.log(stateTest());
