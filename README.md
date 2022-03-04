@@ -63,7 +63,7 @@
 - history, location, math등 속성을 이용하여 화면 api를 잘 구현 할 수 있게 해준다.
      
 ## AJAX
-- 
+-    
      
 ## Form
 - AJAX를 이용한 기본적인 [Form](https://github.com/hyunseokjoo/prac_react/tree/main/info/BasicForm) submit 처리
